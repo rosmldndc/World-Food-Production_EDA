@@ -1,42 +1,127 @@
-# 🌍 World Food Production_EDA
-This repository contains data of total production of different types of foods in per year in each country from 1961-2023.
+# 🌍 World Food Production - Exploratory Data Analysis (EDA)
 
-📌 **Project Description**
-- This project analyzes global food production data by country and commodity over time. The dataset is based on agricultural statistics from the Food and Agriculture Organization (FAO), providing a comprehensive view of worldwide food production patterns. It enables the exploration of how different countries contribute to global food supply and how production has evolved across decades.
+This repository contains a comprehensive analysis of global food production data, covering different types of food produced annually in each country from **1961 to 2023**.
 
-📂 **Dataset Information**
-- **Source:** Kaggle (World Food Production Dataset)  https://www.kaggle.com/datasets/rafsunahmad/world-food-production/data
-- **Data origin:** FAO (Food and Agriculture Organization).
-- **Time range:** Multiple years (historical data across decades).
-- **Structure:** Tabular data with country, item, and production values.
+---
 
-🎯 **Libraries used**
-- **Pandas**: Used for data manipulation and analysis with DataFrames.
-- **NumPy**: Used for numerical operations and working with arrays.
-- **Seaborn & Matplotlib**: Used to create statistical and basic data visualizations.
-- **Plotly Express**: Used to create interactive charts and dashboards.
-- **Warnings**: Used to suppress unnecessary warning messages during code execution.
+## 📌 Project Description
 
-🚀 **Meta Data:**
-- This Data is about the Different Food Production.
-- It consists of 24 columns and 11912 Rows.
-- This data set is about the various crops, vegetables, Fruits etc which are produced in Different Entities.
-- This Dataset consists of one of the column (Entity) which have Object Datatype.
-- Year column is of int Data type.
-- Other 22 columns are of Float Datatype. These columns are('Maize Production (tonnes)':
-  
-   'Rice  Production ( tonnes)', 'Yams  Production (tonnes)',
-   'Wheat Production (tonnes)', 'Tomatoes Production (tonnes)',
-   'Tea  Production ( tonnes )', 'Sweet potatoes  Production (tonnes)',
-   'Sunflower seed  Production (tonnes)', 'Sugar cane Production (tonnes)',
-   'Soybeans  Production (tonnes)', 'Rye  Production (tonnes)',
-   'Potatoes  Production (tonnes)', 'Oranges  Production (tonnes)',
-   'Peas, dry Production ( tonnes)', 'Palm oil  Production (tonnes)',
-   'Grapes  Production (tonnes)', 'Coffee, green Production ( tonnes)',
-   'Cocoa beans Production (tonnes)', 'Meat, chicken  Production (tonnes)',
-   'Bananas  Production ( tonnes)', 'Avocados Production (tonnes)',
-   'Apples Production (tonnes)')
+This project focuses on analyzing global food production by country and commodity over time. The dataset is based on agricultural statistics provided by the **Food and Agriculture Organization (FAO)**, offering a broad and reliable view of worldwide food production patterns.
 
+Through this analysis, we can:
+- Understand how different countries contribute to the global food supply  
+- Identify production trends across decades  
+- Explore variations among crops, regions, and time periods  
+
+---
+
+## 📂 Dataset Information
+
+- **Source:** Kaggle – World Food Production Dataset  
+  https://www.kaggle.com/datasets/rafsunahmad/world-food-production/data  
+
+- **Data Origin:** Food and Agriculture Organization (FAO)  
+
+- **Time Range:** 1961 – 2023  
+
+- **Data Structure:**  
+  Tabular dataset containing:
+  - Country (`Entity`)  
+  - Year  
+  - Production values for multiple food categories  
+
+---
+
+## 🎯 Libraries Used
+
+The following Python libraries were used in this project:
+
+- **Pandas**  
+  Data manipulation and analysis using DataFrames  
+
+- **NumPy**  
+  Numerical computations and array operations  
+
+- **Matplotlib & Seaborn**  
+  Static and statistical data visualizations  
+
+- **Plotly Express**  
+  Interactive visualizations and dashboards  
+
+- **Warnings**  
+  Suppression of unnecessary warning messages during execution  
+
+---
+
+## 🚀 Dataset Overview (Metadata)
+
+- The dataset focuses on **global food production across multiple categories**  
+
+- **Total Rows:** 11,912  
+- **Total Columns:** 24  
+
+- Includes data on:
+  - Crops  
+  - Vegetables  
+  - Fruits  
+  - Other agricultural products  
+
+---
+
+## 🧩 Data Types
+
+- **Entity (Country):** Object (categorical data)  
+- **Year:** Integer  
+- **Production Columns:** Float  
+
+---
+
+## 🌾 Production Features Included
+
+The dataset contains production data (in tonnes) for the following items:
+
+- Maize  
+- Rice  
+- Yams  
+- Wheat  
+- Tomatoes  
+- Tea  
+- Sweet potatoes  
+- Sunflower seed  
+- Sugar cane  
+- Soybeans  
+- Rye  
+- Potatoes  
+- Oranges  
+- Peas (dry)  
+- Palm oil  
+- Grapes  
+- Coffee (green)  
+- Cocoa beans  
+- Chicken meat  
+- Bananas  
+- Avocados  
+- Apples  
+
+---
+
+## 📊 Project Goals
+
+- Perform **Exploratory Data Analysis (EDA)**  
+- Identify **patterns and trends in global food production**  
+- Build **visualizations** to support insights  
+- Prepare the dataset for **future Machine Learning applications**  
+
+---
+
+## 📈 Future Improvements
+
+- Add predictive models (Machine Learning)  
+- Build interactive dashboards  
+- Perform country-level comparative analysis  
+- Integrate additional datasets (climate, population, etc.)  
+
+---
 
 
 
